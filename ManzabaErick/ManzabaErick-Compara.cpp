@@ -1,6 +1,6 @@
 #include<iostrea>
 using namespace std;
-int mian()
+int main()
 {
 
 	float x,y;
