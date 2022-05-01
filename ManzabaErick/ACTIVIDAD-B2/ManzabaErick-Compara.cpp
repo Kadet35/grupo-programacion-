@@ -1,21 +1,26 @@
-#include<iostrea>
+#include<iostream>
 using namespace std;
 int main()
 {
 
-	float x,y;
-	cout<<"Ingrese el primer numero: "cin>>x;
-	cout<<"Ingrese el segundo numero: "cin>>y;
-
-	if(x==y){
-		cout<<"El primer numero= "<<x<<"es igual al segundo numero= "<<y<<endl;
-	}else{
-		if(x==y){
-			cout<<"El primero numero= "<<x<<"es menor al segundo numero= "<<y<<endl;
-		}else{
-			cout<<"El segundo numero= "<<y<<"es menor al primer nuemro= "<<x<<endl;
-		}
-	}
-	return  0;
+	float x,c=0,a=0,n,iva,des,vb,viva,vdes,vf;
+	cout<<"Ingrese la cantidad de numeros a sumar: ";
+	cin>>n;
+	cout<<"Ingrese el iva: ";
+	cin>>iva;
+	cout<<"Ingrese el descuento: ";
+	cin>>des;
+	do{
+		cout<<"Ingrese los numero: ";
+		cin>>x;
+		c=c+1;
+		a=a+x;
+	}while(c<n);
+	vb=a;
+	viva=vb*iva/100;
+	vdes=vb*des/100;
+	vf=vb+viva-vdes;
+	cout<<"El valor final a pagar es: ";
+	cout<<vf<<endl;
 }
 

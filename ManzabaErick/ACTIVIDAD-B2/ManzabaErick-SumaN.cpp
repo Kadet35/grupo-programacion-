@@ -1,16 +1,13 @@
-#include<iostrea>
+#include<iostream>
 using namespace std;
 int main()
 {
 
 	float b,d,S;
-	cout<<"Ingrese el primer numero: "cin>>b;
-	cout<<"Ingrese el segundo numero: "cin>>d;
-	
+	cin>>b>>d;
 	S=b+d;
+	cout<<"El valor de la suma es: "<<S;
 
-	cout<<S;
 	return 0;
-
 }
 
