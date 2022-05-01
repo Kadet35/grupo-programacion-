@@ -20,7 +20,7 @@ int main()
 	viva=vb*iva/100;
 	vdes=vb*des/100;
 	vf=vb+viva-vdes;
-	cout"El valor total a pagar es: ";
+	cout<<"El valor total a pagar es: ";
 	cout<<vf<<endl;
 }
 
