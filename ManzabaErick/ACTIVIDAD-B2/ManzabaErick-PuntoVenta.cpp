@@ -1,4 +1,4 @@
-#include<iostrea>
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -8,7 +8,7 @@ int main()
 	cin>>n;
 	cout<<"Ingrese el iva: ";
 	cin>>iva;
-	cout"Ingrese el descuento: ";
+	cout<<"Ingrese el descuento: ";
 	cin>>des;
 	do{
 		cout<<"Ingrese los numeros: ";

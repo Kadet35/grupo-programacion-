@@ -1,11 +1,13 @@
-#include<iostrea>
+#include<iostream>
 using namespace std;
 int main()
 {
 
 	float b,d,S;
-	cout<<"Ingrese el primer numero: "cin>>b;
-	cout<<"Ingrese el segundo numero: "cin>>d;
+	cout<<"Ingrese el primer numero: ";
+	cin>>b;
+	cout<<"Ingrese el segundo numero: ";
+	cin>>d;
 	
 	S=b+d;
 

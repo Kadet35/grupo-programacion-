@@ -1,11 +1,13 @@
-#include<iostrea>
+#include<iostream>
 using namespace std;
 int main()
 {
 
 	float x,y;
-	cout<<"Ingrese el primer numero: "cin>>x;
-	cout<<"Ingrese el segundo numero: "cin>>y;
+	cout<<"Ingrese el primer numero: ";
+	cin>>x;
+	cout<<"Ingrese el segundo numero: ";
+	cin>>y;
 
 	if(x==y){
 		cout<<"El primer numero= "<<x<<"es igual al segundo numero= "<<y<<endl;
