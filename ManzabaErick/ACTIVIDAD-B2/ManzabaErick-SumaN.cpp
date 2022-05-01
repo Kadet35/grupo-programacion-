@@ -4,7 +4,7 @@ int main()
 {
 
 	float b,d,S;
-	cin>>b>>d;
+	cin>>b,d,S;
 	S=b+d;
 	cout<<"El valor de la suma es: "<<S;
 
