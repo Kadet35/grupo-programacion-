@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace sd;
+using namespace std;
 int main()
 {
 
@@ -11,7 +11,7 @@ int main()
 	cout<<"Ingrese el descuento: ";
 	cin>>des;
 	do{
-		cout<<"Ingrese los numero: ";
+		cout<<"Ingrese los numeros: ";
 		cin>>x;
 		c=c+1;
 		a=a+x;
