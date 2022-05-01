@@ -20,7 +20,7 @@ int main()
 			a2=a2+x;
 		}
 	}while(c>m);
-	cout<<"El resultado fue: ";<<endl;
+	cout<<"El resultado fue: "<<endl;
 	cout<<"Cantidad de monedas ingresadas: "<<c<<endl;
 	cout<<"Cantidad de total en dinero contado: "<<a<<endl;
 	cout<<"Cantidad de monedas de 0.10cc ingresadas: "<<c1<<endl;
