@@ -19,9 +19,9 @@ int main()
 		cin>>em_x;
 		em_c=em_c+1;
 		em_a=em_a+em_x;
-		if(x==m){
+		if(em_x==em_m){
 			em_c1=em_c1+1;
-			em_a1=em_a1+x;
+			em_a1=em_a1+em_x;
 		}else{
 			em_c2=em_c2+1;
 			em_a2=em_a2+em_x;
