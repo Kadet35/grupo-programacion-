@@ -1,26 +1,34 @@
+//================================================
+//==> Nombre del programa: Punto de venta
+//==> Archivo : PuntoVenta.cpp
+//==>Autor: Erick Manzaba 
+//==>Fecha de elaboración: 2022-04-30
+//==>Fecha ultima actualización: 2022-05-19
+//=================================================
+
 #include<iostream>
 using namespace std;
 int main()
 {
 
-	float x,c=0,a=0,n,iva,des,vb,viva,vdes,vf;
+	float em_x,em_c=0,em_a=0,em_n,em_iva,em_des,em_vb,em_viva,em_vdes,em_vf;
 	cout<<"Ingrese la cantidad de numeros a sumar: ";
-	cin>>n;
+	cin>>em_n;
 	cout<<"Ingrese el iva: ";
-	cin>>iva;
+	cin>>em_iva;
 	cout<<"Ingrese el descuento: ";
-	cin>>des;
+	cin>>em_des;
 	do{
-		cout<<"Ingrese los numeros: ";
-		cin>>x;
-		c=c+1;
-		a=a+x;
-	}while(c<n);
-	vb=a;
-	viva=vb*iva/100;
-	vdes=vb*des/100;
-	vf=vb+viva-vdes;
+		cout<<"Ingrese los numero: ";
+		cin>>em_x;
+		em_c=em_c+1;
+		em_a=em_a+em_x;
+	}while(em_c<em_n);
+	em_vb=em_a;
+	em_viva=em_vb*em_iva/100;
+	em_vdes=em_vb*em_des/100;
+	em_vf=em_vb+em_viva-em_vdes;
 	cout<<"El valor final a pagar es: ";
-	cout<<vf<<endl;
+	cout<<em_vf<<endl;
 }
 
