@@ -1,30 +1,36 @@
+//================================================
+//==> Nombre del programa: Calculo de la edad
+//==> Archivo : laedad.cpp
+//==>Autor: Erick Manzaba 
+//==>Fecha de elaboración: 2022-04-30
+//==>Fecha ultima actualización: 2022-05-19
+//=================================================
 #include<iostream>
 using namespace std;
 int main()
 {
 
-	int aa,ma,da,an,mn,dn,a,m,d;
+	int em_aa,em_ma,em_da,em_an,em_mn,em_dn,em_a,em_m,em_d;
 	cout<<"Ingrese la fecha actual (aaaa mm dd): ";
-	cin>>aa>>ma>>da;
+	cin>>em_aa>>em_ma>>em_da;
 	cout<<"Ingrese la fecha de nacimiento (aaaa mm dd): ";
-	cin>>an>>mn>>dn;
-	if(da>=dn){
-		d=da-dn;
+	cin>>em_an>>em_mn>>em_dn;
+	if(em_da>=em_dn){
+		em_d=em_da-em_dn;
 	}else{
-		dn=dn+30;
-		ma=ma-1;
-		d=da-dn;
+		em_dn=em_dn+30;
+		em_ma=em_ma-1;
+		em_d=em_da-em_dn;
 	}
-	if(ma>=mn){
-		m=ma-mn;
+	if(em_ma>=em_mn){
+		em_m=em_ma-em_mn;
 	}else{
-		mn=mn+12;
-		aa=aa-1;
-		m=ma-mn;
+		em_mn=em_mn+12;
+		em_aa=em_aa-1;
+		em_m=em_ma-em_mn;
 	}
-	a=aa-an;
-	cout<<"La persona tiene "<<a<<" años "<<m<<" meses y "<<d<<" dias ";
+	em_a=em_aa-em_an;
+	cout<<"La persona tiene "<<em_a<<" años "<<em_m<<" meses y "<<em_d<<" dias ";
 
 	return 0;
 }
-
