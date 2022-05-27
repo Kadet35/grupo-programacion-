@@ -252,7 +252,7 @@ kb_d2=kb_d-kb_d1;
    else{ kb_d2=kb_d-kb_d1;}
    if(kb_m<kb_m1) {
     kb_m=kb_m+12;
-   | kb_a=kb_a-1;
+    kb_a=kb_a-1;
    kb_m2=kb_m-kb_m1;
    }
     else{ kb_m2=kb_m-kb_m1; }
